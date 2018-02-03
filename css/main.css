@@ -1,8 +1,8 @@
+/*Color overrides*/
 .purple {color:#5F4B8B;}
 .light-purple {color: #806baf;}
 .dark-purple {color: #322749;}
-
 .bg-light-purple{ background-color: #806baf;}
-.tracked-tight {
-    letter-spacing: -.032em;
-}
+.silver{color:#777777;}
+
+.tracked-tight {letter-spacing: -.032em;}
