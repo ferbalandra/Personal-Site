@@ -6,3 +6,8 @@
 .silver{color:#777777;}
 
 .tracked-tight {letter-spacing: -.032em;}
+
+
+/*Padding bottom negative*/
+
+.mb-neg{margin-bottom: -10px;}
