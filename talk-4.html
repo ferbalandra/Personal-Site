@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>AEA-Talk 2</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  </head>
+  <body>
+    <header class="bg-white black-80 tc pv4 avenir">
+        <nav class="db dt-l w-100 border-box pa3-l pa1 ph5-l">
+          <a class="db dtc-l v-mid mid-gray link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="index.html" title="Home">
+            <img src="http://tachyons.io/img/logo.jpg" class="dib w2 h2 br-100" alt="Site Name">
+          </a>
+          <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Home">About Me</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="How it Works">Portfolio</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Blog">Resume</a>
+            <a class="link dim dark-gray f6 f5-l dib" href="#" title="Contact">Contact</a>
+            <a class="link dim dark-gray f6 f5-l dib mr3 mr4-l" href="#" title="Contact">Conference</a>
+          </div>
+        </nav>
+    </header>
+
+<article class="avenir">
+
+  <div class="center pv3 w-70-l w-90 pa2">
+    <h1 class="f2 lh-title purple" style="margin-bottom: -10px;">Graduating to Grid</h1>
+    <p class="f4 silver"><strong>Rachel Andrew</strong>, Co-founder, Perch @rachelandrew</p>
+   </div>
+
+    <div class="center pv3 w-70-l w-90 pa2 lh-copy">
+      <p>March 2017 all browsers opened the css grid but wasnt so great. </p>
+      <p class="silver b mb-neg" >Grid is</p>
+      <ol>
+        <li>Exciting - a real game changer</li>
+        <li>Confusing - it doesn’t seem to do what I thought it would</li>
+        <li>Scary - there are so many new properties to learn!</li>
+      </ol>
+
+      <p class="silver b mb-neg" >How to understand the Grid</p>
+      <p>Understanding CSS is not about learning every
+property and value by heart. Core ideas that help CSS layout makes sense. You have to understand it to really utilize the Grid</p>
+
+    <ol>
+      <li>Understanding Cascading Style Sheets</li>
+      <li>Inheritance - which properties will inherit
+      values from their parent.</li>
+      <li>Specificity - which rule wins when two
+      things could apply to the same element.</li>
+      <li> Layout</li>
+    </ol>
+
+    <p> New css cares on writing modes so the words are different than usual </p>
+    <p>Flow base grid is what similar as bootstrap using rows and wrapper into percentages. Percentages look ugly and not fun to calculate but we understand what they are and they result into spaces we can calculate and control.</p>
+    <p>You can fake a grid with flexbox and its very simlar as before, with math and percentages but past layout methods create the appearance of
+    a grid, by lining things up.</p>
+
+    <p class="silver b mb-neg" >CSS Intrinsic and Extrinsic Sizing </p>
+    <p>There are different ways to set width: by pixel size or container  meaning the text or content dictates the size. Items start by trying to
+    display at max-content size.</p>
+    <p>Flex lets you choose the items sizes and dictate how they behave. flex: 1 1 auto; shares the space of a container and spaces them out equally</p>
+    <p>flex: 1 1 0;With a flex-basis of 0 space is distributed from 0, making equal columns.</p>
+    <p>Flexbox is starting from max-content and taking space away. Grid starting at min-content and adding space. </p>
+
+    <p>In grid there is a value called fit-content and you can add value to it</p>
+
+    <blockquote class="athelas ml0 mt2 pl4 silver bl bw1 b--purple">
+        <p class="f3 lh-copy mt2">
+           “In the end, we discovered that a column-based
+          grid wasn’t actually needed. Since Grid allows you to
+          create a custom grid to match whatever layout you have,
+          we didn’t need to force it into 12 columns. Instead, we
+          created CSS Grid objects for some of the common layout
+          patterns in the designs.”
+        </p>
+        <cite class="f6 ttu tracked fs-normal">―Rebuilding Slack.com </cite>
+      </blockquote>
+
+      <p>with grid you can make a 12 column grid but you do not need to keep it 12 columns you can make different grids</p>
+      <p>Sizing and understanign how it works is one of the most important keys on the css Grid</p>
+      
+      <p class="silver b mb-neg" >Why is so complicated? </p>
+      <p>More capability & flexibility means
+      more to learn. It is all just lines and grid lines understanding this lines is important as well  </p>
+      <p>There are different ways to add code and they all work so you need to find what works best, one of the best things about css grid is that you have options </p>
+
+      <p class="silver b mb-neg" >Implementing the new CSS in current projects  </p>
+      <p>You can implement it on small pieces that can work on the rest of the layout, you can combine the grids in order to work better. You dont have to rewrite the whole website but just implement bits and pieces with the new CSS grid</p>
+      <p>Other layout methods still exist</p>
+
+</div>
+
+
+<!–– ___________________Footer__________________________________________________-->
+  <section class="bg-light-purple  black-80 pv4 bb bt b--black-10">
+    <div  class="center pv3 w-70-l w-90 pa2 lh-copy">
+  
+      <p class="black b mb-neg mt4 bb " >Find all the slides for this talk</b>
+      <p> Slide for this conference <a class="ttu link dim black" href="http://slides.aneventapart.com/washington-dc-2018/04_RachelAndrew.pdf" >&nbsp;Talk -3 Graduating to Grid</a></p>
+    </div>  
+   </section> 
+
+
+
+
+</article>
+
+  </body>
+</html>
