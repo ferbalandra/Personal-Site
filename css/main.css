@@ -11,3 +11,10 @@
 /*Padding bottom negative*/
 
 .mb-neg{margin-bottom: -10px;}
+
+/*Center articles */
+
+.article-center {
+	margin: auto;
+    width: 50%;
+}
